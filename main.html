@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> coffee shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="main.html">home</a>
+        <a href="#about">про нас</a>
+        <a href="#menu">меню</a>
+        <a href="product.html">продукція</a>
+        <a href="#contact">звязок</a>
+        <a href="blog.html">блог</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/menu-6.png" alt="">
+            <div class="content">
+                <h3>марочино</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/menu-4.png" alt="">
+            <div class="content">
+                <h3>мокко</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/menu-2.png" alt="">
+            <div class="content">
+                <h3>глясе</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/menu-1.png" alt="">
+            <div class="content">
+                <h3>раф</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        
+    </div>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>свіжа кава вранці</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <a href="#" class="btn">замовити</a>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>Про</span> нас </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Що робить нашу каву особливою?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+            <a href="#" class="btn">читати більше</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Наші <span>новинки</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png" alt="">
+            <h3>Раф</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>глясе</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>допіо</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-4.png" alt="">
+            <h3>мокко</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-5.png" alt="">
+            <h3>кон панна</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-6.png" alt="">
+            <h3>марочино</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">додати до кошика</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> наша <span>продукція</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>кавові зерна</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>кавові зерна</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>кавові зерна</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>ЗВ'ЯЖІТЬСЯ з</span>  НАМИ </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=вулиця%20Заньковецької,%2089,%20Ужгород,%20Закарпатська&output=embedt=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" allowfullscreen="" loading="lazy"></iframe>
+      
+      
+      
+
+        <form action="">
+            <h3>БУДЕМО НА ЗВ'ЯЗКУ</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="ім'я">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="номер телефону">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Наш <span>блог</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">смачна та освіжаюча кава</a>
+                <span>by Бодя / December 1, 2023</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">coffee aesthetic</a>
+                <span>by Бодя / December 1, 2023</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">латте-арт</a>
+                <span>by Бодя / December 1, 2023</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">про нас</a>
+        <a href="#menu">меню</a>
+        <a href="#products">продукція</a>
+       
+        <a href="#contact">звязок</a>
+        <a href="#blogs">блог</a>
+    </div>
+
+   
+
+</section>
+
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p class="We">We use cookies</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia tempore hic minima sit necessitatibus dolorem, quae nam optio<p>
+        <button class="btn1">Прочитати</button>
+        <button class="btn" onclick="closePopup()">Прийняти</button>
+    </div>
+</div>
+
+<script>
+    let navbar = document.querySelector('.navbar');
+
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+let searchForm = document.querySelector('.search-form');
+
+document.querySelector('#search-btn').onclick = () =>{
+    searchForm.classList.toggle('active');
+    navbar.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+let cartItem = document.querySelector('.cart-items-container');
+
+document.querySelector('#cart-btn').onclick = () =>{
+    cartItem.classList.toggle('active');
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+}
+
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    openPopup();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    openPopup();
+});
+
+
+function openPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+}
+
+
+function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
+</script>
+
+</body>
+</html>
