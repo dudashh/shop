@@ -118,42 +118,42 @@
             <img src="images/menu-1.png" alt="">
             <h3>Раф</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+            <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
         <div class="box">
             <img src="images/menu-2.png" alt="">
             <h3>глясе</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+            <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
         <div class="box">
             <img src="images/menu-3.png" alt="">
             <h3>допіо</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+ <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
         <div class="box">
             <img src="images/menu-4.png" alt="">
             <h3>мокко</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+            <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
         <div class="box">
             <img src="images/menu-5.png" alt="">
             <h3>кон панна</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+            <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
         <div class="box">
             <img src="images/menu-6.png" alt="">
             <h3>марочино</h3>
             <div class="price">$15.99 <span>20.99</span></div>
-            <a href="#" class="btn">додати до кошика</a>
+            <a href="#header" class="btn" onclick="openPopup1()">додати до кошика</a>
         </div>
 
     </div>
@@ -170,7 +170,7 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#header" class="fas fa-shopping-cart" onclick="openPopup1()"></a>
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
             </div>
@@ -192,7 +192,7 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#header" class="fas fa-shopping-cart" onclick="openPopup1()"></a>
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
             </div>
@@ -214,7 +214,7 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
+               <a href="#header" class="fas fa-shopping-cart" onclick="openPopup1()"></a>
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
             </div>
@@ -354,6 +354,14 @@
     </div>
 </div>
 
+<div id="popup1" class="popup1">
+    <a href="#header" class="popup_area" onclick="closePopup1()"></a>
+    <div class="popup-content1">
+        <span class="close1" onclick="closePopup1()">&times;</span>
+        <p>Ваш товар додано до кошика!</p>
+    </div>
+</div>
+    
 <script>
     let navbar = document.querySelector('.navbar');
 
@@ -402,6 +410,17 @@ function openPopup() {
 
 function closePopup() {
     var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
+
+function openPopup1() {
+    var popup = document.getElementById('popup1');
+    popup.style.display = 'block';
+}
+
+
+function closePopup1() {
+    var popup = document.getElementById('popup1');
     popup.style.display = 'none';
 }
 </script>
